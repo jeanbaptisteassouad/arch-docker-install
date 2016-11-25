@@ -1,7 +1,7 @@
 # arch-docker-install
 change keys mapping
 ```shell
-loadkeys fr-pc
+loadkeys fr
 ```
 
 sync pacman database
@@ -19,3 +19,7 @@ install git
 pacman -S git
 ```
 
+clone git
+```shell
+git clone https://github.com/jeanbaptisteassouad/arch-docker-install.git
+```
